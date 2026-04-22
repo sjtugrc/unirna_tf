@@ -46,6 +46,7 @@ Sequence "AUcg" is different from "AUCG", all the lowercase letters will be merg
 
 ```python
 import unirna_tf
+import torch
 from transformers import AutoTokenizer, AutoModel
 
 tokenizer = AutoTokenizer.from_pretrained("./weights/unirna_L16")
